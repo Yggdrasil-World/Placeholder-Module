@@ -13,10 +13,12 @@ repositories {
 
 dependencies {
     implementation 'org.reflections:reflections:0.10.2'
+    implementation 'com.github.Minestom:Minestom:4f7ff5b474'
 
     // Logging
     implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
     implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+    implementation project(path: ':localisation')
 
     // Tests only
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
